@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "silker_milker",
+  "version": "${version}",
+  "name": "Silker Milker",
+  "description": "A dark-purple client-side quality-of-life mod.",
+  "authors": [
+    "Silker Milker Team"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.silkermilker.SilkerMilkerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
